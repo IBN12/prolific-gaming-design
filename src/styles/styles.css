@@ -1,0 +1,46 @@
+/* body - The body for the entire application. */
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* * - All the elements in the application. */
+*{
+    box-sizing: border-box; 
+}
+
+/* content - The content section is the main section for the application. */
+#content{
+    /* border: 1px solid red; */
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+/* |Navigation Header Section| */
+/* nav-header-section - The navigation header. */
+.nav-header-section{
+    display: flex;
+    align-items: center; 
+    gap: 50px; 
+
+    border: 1px solid #1e293b;
+    background-color:#1e293b;
+    padding: 10px;
+    cursor: pointer; 
+}
+
+
+.nav-header-section > img[src]{ /* Nav Menu Bar */
+    width: 40px;
+    height: 40px; 
+}
+
+.nav-header-section > h1 { /* Nav Menu Logo */
+    font-size: 15px;
+    color: #f1f5f9;
+    cursor: pointer;
+}
+.nav-header-section > h1:hover{
+    color: #94a3b8;
+}
+
